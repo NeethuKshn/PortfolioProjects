@@ -225,14 +225,37 @@ FROM Hurricanes
 
 -- 2. Clean up damage column
 
+select distinct(SUBSTRING(Damage, CHARINDEX(' ', Damage), len(Damage)+1)) from Hurricanes
 
+select Damage,
+case when Damage is NULL then NULL
+     when CHARINDEX('million',Damage) <> 0 then cast(trim(SUBSTRING(REPLACE(REPLACE(Damage,'$',''),'>',''),1,CHARINDEX('million',REPLACE(REPLACE(Damage,'$',''),'>',''))-1)) as float) * 1000000
+     when CHARINDEX('billion',Damage) <> 0 then cast(trim(SUBSTRING(REPLACE(REPLACE(Damage,'$',''),'>',''),1,CHARINDEX('billion',REPLACE(REPLACE(Damage,'$',''),'>',''))-1)) as float) * 1000000000
+     when CHARINDEX('thousand',Damage) <> 0 then cast(trim(SUBSTRING(REPLACE(REPLACE(Damage,'$',''),'>',''),1,CHARINDEX('thousand',REPLACE(REPLACE(Damage,'$',''),'>',''))-1)) as float) * 1000
+	 when (CHARINDEX('[',Damage) <> 0) OR Damage in ('Unknown', 'None', 'Minor', 'Moderate', 'Millions', 'Minimal', 'Extensive', 'Heavy') then NULL  
+	 else CAST(REPLACE(REPLACE(REPLACE(Damage,'$',''),'>',''),',','') AS FLOAT)
+end as NewDamage
+from Hurricanes
 
+ALTER TABLE Hurricanes
+ADD Cost_of_Damage float
 
+UPDATE T1
+SET T1.Cost_of_Damage = (select 
+case when Damage is NULL then NULL
+     when CHARINDEX('million',Damage) <> 0 then cast(trim(SUBSTRING(REPLACE(REPLACE(Damage,'$',''),'>',''),1,CHARINDEX('million',REPLACE(REPLACE(Damage,'$',''),'>',''))-1)) as float) * 1000000
+     when CHARINDEX('billion',Damage) <> 0 then cast(trim(SUBSTRING(REPLACE(REPLACE(Damage,'$',''),'>',''),1,CHARINDEX('billion',REPLACE(REPLACE(Damage,'$',''),'>',''))-1)) as float) * 1000000000
+     when CHARINDEX('thousand',Damage) <> 0 then cast(trim(SUBSTRING(REPLACE(REPLACE(Damage,'$',''),'>',''),1,CHARINDEX('thousand',REPLACE(REPLACE(Damage,'$',''),'>',''))-1)) as float) * 1000
+	 when (CHARINDEX('[',Damage) <> 0) OR Damage in ('Unknown', 'None', 'Minor', 'Moderate', 'Millions', 'Minimal', 'Extensive', 'Heavy') then NULL  
+	 else CAST(REPLACE(REPLACE(REPLACE(Damage,'$',''),'>',''),',','') AS FLOAT)
+end as Cost_of_Damage
+       from Hurricanes AS T2 WHERE T2.F1 = T1.F1)
+FROM Hurricanes AS T1 
 
+exec sp_rename 'Hurricanes.Cost_of_Damage','Damage_in_dollars','COLUMN'
 
+select Damage_in_dollars from Hurricanes
 
-
-
---Filter area affected column by USA states
+-- 3. Filter area affected column by USA states
 --Clean up wind speed and pressure columns
 --Get the date from duration column
