@@ -1,7 +1,7 @@
 select count(*) from dbo.loan_sanction						--614
 select count(*) from dbo.loan_sanction_personal				--614
 
---Total loan amount sanctioned and not sanctioned
+--Total loan amount sanctioned and not sanctioned - updated
 select loan_status, sum(LoanAmount * 1000) as Total_loan_amount, count(*) as 'No. of applications'
 from dbo.loan_sanction
 where LoanAmount is not null 
