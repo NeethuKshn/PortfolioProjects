@@ -248,5 +248,118 @@ exec sp_rename 'Hurricanes.Cost_of_Damage','Damage_in_dollars','COLUMN'  --Chang
 select Damage_in_dollars from Hurricanes
 
 -- 3. Filter area affected column by USA states
---Clean up wind speed and pressure columns
---Get the date from duration column
+
+select *
+from Hurricanes
+where CHARINDEX('Alabama',[Areas affected]) <> 0
+OR CHARINDEX('Alaska',[Areas affected]) <> 0
+OR CHARINDEX('Arizona',        [Areas affected]) <> 0    
+OR CHARINDEX('Arkansas',       [Areas affected]) <> 0
+OR CHARINDEX('California',     [Areas affected]) <> 0
+OR CHARINDEX('Colorado',       [Areas affected]) <> 0
+OR CHARINDEX('Connecticut',    [Areas affected]) <> 0
+OR CHARINDEX('Delaware',       [Areas affected]) <> 0
+OR CHARINDEX('Florida',        [Areas affected]) <> 0
+OR CHARINDEX('Georgia',        [Areas affected]) <> 0
+OR CHARINDEX('Hawaii',         [Areas affected]) <> 0
+OR CHARINDEX('Idaho',          [Areas affected]) <> 0
+OR CHARINDEX('Illinois',       [Areas affected]) <> 0
+OR CHARINDEX('Indiana',        [Areas affected]) <> 0
+OR CHARINDEX('Iowa',           [Areas affected]) <> 0
+OR CHARINDEX('Kansas',         [Areas affected]) <> 0
+OR CHARINDEX('Kentucky',       [Areas affected]) <> 0
+OR CHARINDEX('Louisiana',      [Areas affected]) <> 0
+OR CHARINDEX('Maine',          [Areas affected]) <> 0
+OR CHARINDEX('Maryland',       [Areas affected]) <> 0
+OR CHARINDEX('Massachusetts',  [Areas affected]) <> 0
+OR CHARINDEX('Michigan',       [Areas affected]) <> 0
+OR CHARINDEX('Minnesota',      [Areas affected]) <> 0
+OR CHARINDEX('Mississippi',    [Areas affected]) <> 0
+OR CHARINDEX('Missouri',       [Areas affected]) <> 0
+OR CHARINDEX('Montana',        [Areas affected]) <> 0
+OR CHARINDEX('Nebraska',       [Areas affected]) <> 0
+OR CHARINDEX('Nevada',         [Areas affected]) <> 0
+OR CHARINDEX('New Hampshire',  [Areas affected]) <> 0
+OR CHARINDEX('New Jersey',     [Areas affected]) <> 0
+OR CHARINDEX('New Mexico',     [Areas affected]) <> 0
+OR CHARINDEX('New York',       [Areas affected]) <> 0
+OR CHARINDEX('North Carolina', [Areas affected]) <> 0
+OR CHARINDEX('North Dakota',   [Areas affected]) <> 0
+OR CHARINDEX('Ohio',           [Areas affected]) <> 0
+OR CHARINDEX('Oklahoma',       [Areas affected]) <> 0
+OR CHARINDEX('Oregon',         [Areas affected]) <> 0
+OR CHARINDEX('Pennsylvania',   [Areas affected]) <> 0
+OR CHARINDEX('Rhode Island',   [Areas affected]) <> 0
+OR CHARINDEX('South Carolina', [Areas affected]) <> 0
+OR CHARINDEX('South Dakota',   [Areas affected]) <> 0
+OR CHARINDEX('Tennessee',      [Areas affected]) <> 0
+OR CHARINDEX('Texas',          [Areas affected]) <> 0
+OR CHARINDEX('Utah',           [Areas affected]) <> 0
+OR CHARINDEX('Vermont',        [Areas affected]) <> 0
+OR CHARINDEX('Virginia',       [Areas affected]) <> 0
+OR CHARINDEX('Washington',     [Areas affected]) <> 0
+OR CHARINDEX('West Virginia',  [Areas affected]) <> 0
+OR CHARINDEX('Wisconsin',      [Areas affected]) <> 0
+OR CHARINDEX('Wyoming',        [Areas affected]) <> 0
+
+
+-- 4. Clean up wind speed and pressure columns
+
+ALTER TABLE Hurricanes
+ADD Windspeed_mph int
+
+ALTER TABLE Hurricanes
+ADD Windspeed_kmph int
+
+select [Wind speed], 
+       replace(substring([Wind speed], 1, charindex('mph',[Wind speed])),' m','') as Windspeed_mph,
+	   replace(replace(substring([Wind speed], charindex('(',[Wind speed]), charindex('km/h',[Wind speed])),' km/h)',''),'(','') as Windspeed_kmph
+from Hurricanes
+
+UPDATE T1
+SET T1.Windspeed_mph = (select replace(substring([Wind speed], 1, charindex('mph',[Wind speed])),' m','')
+       from Hurricanes AS T2 WHERE T2.F1 = T1.F1)
+FROM Hurricanes AS T1
+
+UPDATE T1
+SET T1.Windspeed_kmph = (select replace(replace(substring([Wind speed], charindex('(',[Wind speed]), charindex('km/h',[Wind speed])),' km/h)',''),'(','')
+       from Hurricanes AS T2 WHERE T2.F1 = T1.F1)
+FROM Hurricanes AS T1
+
+select Pressure,
+case when CHARINDEX('hPa', Pressure) <> 0 then replace(replace(substring(Pressure, 1, charindex('hPa', Pressure)),' h',''),',','')
+     else NULL
+end as Pressure_hpa,
+case when CHARINDEX('hPa', Pressure) <> 0 then replace(replace(substring(Pressure, charindex('(', Pressure),charindex(')', Pressure)),'(',''),' inHg)','')
+     else NULL
+end as Pressure_Hg
+from Hurricanes
+
+ALTER TABLE Hurricanes
+ADD Pressure_hpa float
+
+ALTER TABLE Hurricanes
+ADD Pressure_Hg float
+
+UPDATE T1
+SET T1.Pressure_hpa = (select 
+case when CHARINDEX('hPa', Pressure) <> 0 then replace(replace(substring(Pressure, 1, charindex('hPa', Pressure)),' h',''),',','')
+     else NULL
+end as Pressure_hpa
+       from Hurricanes AS T2 WHERE T2.F1 = T1.F1)
+FROM Hurricanes AS T1
+
+UPDATE T1
+SET T1.Pressure_Hg = (select 
+case when CHARINDEX('hPa', Pressure) <> 0 then replace(replace(substring(Pressure, charindex('(', Pressure),charindex(')', Pressure)),'(',''),' inHg)','')
+     else NULL
+end as Pressure_Hg
+       from Hurricanes AS T2 WHERE T2.F1 = T1.F1)
+FROM Hurricanes AS T1
+
+select Windspeed_mph, Windspeed_kmph, Pressure_hpa, Pressure_Hg
+from Hurricanes
+
+-- 5. Get the date from duration column
+
+select cast(FromDate_ as date), cast(ToDate_ as date) from Hurricanes
