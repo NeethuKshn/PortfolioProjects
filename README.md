@@ -7,4 +7,5 @@
    - Filter area affected column by USA states
    - Clean up wind speed and pressure columns
    - Get the date from duration column
+3. Web scraping - Creating a csv dataset from Car inventory website
                                                  
