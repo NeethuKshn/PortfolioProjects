@@ -1,0 +1,64 @@
+Name,Stock_type,Mileage,Primary_price,Website_link,Dealer_name,Distance_from
+2019 Ford Mustang GT,Used,"23,205 mi.","$33,000",https://www.cars.com/vehicledetail/b1523410-10d0-44f2-a0fe-a0691fe5bda5/?attribution_type=premier,AutoMax Preowned Framingham,mi. from 02466
+2015 INFINITI Q70 3.7X,Used,"77,550 mi.","$18,517",https://www.cars.com/vehicledetail/9d6cb790-089b-40a0-b857-c27138ae5ce3/,Lexus of Watertown,5 mi. from 02466
+2016 Toyota Avalon Limited,Used,"100,442 mi.","$17,497",https://www.cars.com/vehicledetail/bf7ed5a4-4e85-488f-afd3-6ef843f582e3/,Lexus of Watertown,5 mi. from 02466
+2020 Lexus IS 300 Base,Used,"15,922 mi.","$32,188",https://www.cars.com/vehicledetail/01849488-1b7f-4dcb-8956-61b378ea6c9f/,Parkway Toyota of Boston,7 mi. from 02466
+2018 Lexus LS 500 500,Used,"64,539 mi.","$40,988",https://www.cars.com/vehicledetail/b8fbc4aa-e3ef-4e64-b101-73fbf2914def/,Audi Westwood,9 mi. from 02466
+2016 Acura TLX FWD,Acura Certified,"102,315 mi.","$16,087",https://www.cars.com/vehicledetail/91a78de2-b03e-4aa8-8acd-4e76d9b89c12/,Ira Acura Westwood,10 mi. from 02466
+2017 Ford Fusion Titanium,Used,"128,337 mi.","$11,862",https://www.cars.com/vehicledetail/605e88f4-3e19-4416-a6de-241902aeaaac/,Mercedes-Benz of Westwood,10 mi. from 02466
+2011 Honda Accord SE,Used,"83,755 mi.","$11,987",https://www.cars.com/vehicledetail/6620096e-2c07-4361-859c-a09efd668281/,Ira Mazda,10 mi. from 02466
+2019 Lexus ES 350 Luxury,Used,"31,141 mi.","$33,611",https://www.cars.com/vehicledetail/2a8ef8a8-af5f-48b4-a1ad-403ec98a9422/,Ira Mazda,10 mi. from 02466
+2022 Cadillac CT4-V Blackwing,Used,"9,453 mi.","$62,262",https://www.cars.com/vehicledetail/faa6dcdb-4296-4116-a423-d884d53c6714/,Central Chrysler Jeep Dodge of Norwood,10 mi. from 02466
+2021 Audi A8 L 60,Used,"12,182 mi.","$63,290",https://www.cars.com/vehicledetail/7aa0b7ea-8cc3-452d-8e3e-fc8881d4e264/,Boch Honda,11 mi. from 02466
+2019 BMW 330 i xDrive,Used,"40,069 mi.","$28,770",https://www.cars.com/vehicledetail/e216216c-56fa-4ae4-8b0e-ea4513fd7c5b/,McGovern Ford of Framingham,11 mi. from 02466
+2020 Tesla Model 3 Performance,Used,"51,561 mi.","$32,997",https://www.cars.com/vehicledetail/5a6f9650-5604-4c51-aeb5-75f74ae07c48/,Boch Nissan,11 mi. from 02466
+2015 Tesla Model S 85D,Used,"65,826 mi.","$27,500",https://www.cars.com/vehicledetail/6a951be2-33f8-4353-aca3-4d479664d732/,McGovern Subaru of Acton,12 mi. from 02466
+2021 Honda Accord LX 1.5T,Used,"49,890 mi.","$23,200",https://www.cars.com/vehicledetail/e65efd07-2376-4dbf-8f62-344c457e6f1a/,Boch Honda West,18 mi. from 02466
+2019 Lexus ES 350 ES 350,Used,"10,752 mi.","$32,595",https://www.cars.com/vehicledetail/239a6902-d290-4924-a81f-8cc41f2208f8/,Boch Honda West,18 mi. from 02466
+2022 Volkswagen Jetta GLI 2.0T Autobahn,Volkswagen Certified,"17,862 mi.","$33,872",https://www.cars.com/vehicledetail/5ba97a91-a5cd-4409-b59c-da8681eb1d6b/,Colonial Volkswagen,19 mi. from 02466
+2022 Lexus IS 350 F Sport,Used,"19,862 mi.","$41,477",https://www.cars.com/vehicledetail/ecbb8f4c-6860-4ede-889e-ac2380ed701d/,Imperial Hyundai,19 mi. from 02466
+2021 Toyota Camry SE,Used,"60,707 mi.","$22,390",https://www.cars.com/vehicledetail/2f3beb4d-7a3c-4f9e-ba01-e35b56a7afc0/,Fafama Auto Sales,21 mi. from 02466
+2004 Audi A8 L 4.2 quattro,Used,"167,151 mi.","$8,998",https://www.cars.com/vehicledetail/c4ac0e32-adbc-4aee-a74d-88b09b2c0d56/,The Highline Group,21 mi. from 02466
+2022 BMW 740 i xDrive,Used,"45,273 mi.","$52,988",https://www.cars.com/vehicledetail/1873ab6c-2c89-45d3-b61f-2c05524f8d92/,Ira Lexus,21 mi. from 02466
+2019 Ford Mustang GT,Used,"23,205 mi.","$33,000",https://www.cars.com/vehicledetail/b1523410-10d0-44f2-a0fe-a0691fe5bda5/?attribution_type=premier,AutoMax Preowned Framingham,mi. from 02466
+2020 Genesis G70 2.0T Sport,Used,"20,180 mi.","$26,995",https://www.cars.com/vehicledetail/4f4f91a4-0872-4b6d-80d4-f164a0efc988/,Boston Foreign Motor,6 mi. from 02466
+2023 Cadillac CT4 Sport,Used,"6,473 mi.","$39,488",https://www.cars.com/vehicledetail/339ea0d8-50a0-428a-b3b4-d725fd5750ce/,Audi Westwood,9 mi. from 02466
+2016 Chevrolet Cruze Limited 1LT,Used,"85,020 mi.","$8,987",https://www.cars.com/vehicledetail/8da512d8-7f98-4776-8335-2c684df277cd/,BMW of Norwood,12 mi. from 02466
+2018 Mercedes-Benz AMG E 43 Base 4MATIC,Used,"54,670 mi.","$39,998",https://www.cars.com/vehicledetail/503462eb-df27-419f-a2a3-836f5f709628/,CarMax Norwood - Offering Express Pickup and Home Delivery,13 mi. from 02466
+2020 Audi A8 L 55,Used,"21,948 mi.","$54,277",https://www.cars.com/vehicledetail/57f7e0e5-4258-4293-be2b-f04ebf81869f/,Colonial Ford of Marlboro,15 mi. from 02466
+2014 Toyota Camry SE Sport,Used,"111,983 mi.","$13,925",https://www.cars.com/vehicledetail/f481a5e6-6e15-43b9-a156-8fc7017df19e/,Atlantic Toyota,17 mi. from 02466
+2022 Chrysler 300 S,Used,"31,489 mi.","$28,843",https://www.cars.com/vehicledetail/a8a7864b-6067-4303-99f1-08b502edf9a0/,Hertz Car Sales Lynn,17 mi. from 02466
+2012 Rolls-Royce Ghost Base,Used,"55,070 mi.","$114,995",https://www.cars.com/vehicledetail/fb2102d9-c5be-44c2-89bc-da2f49c88803/,Avon Auto Brokers,20 mi. from 02466
+2022 Lexus ES 350 ES 350,Used,"15,051 mi.","$36,488",https://www.cars.com/vehicledetail/7d3a1693-7bb0-4ba7-8971-02e8d9e5db5a/,Ira Lexus,21 mi. from 02466
+2022 Mercedes-Benz AMG E 53 Base 4MATIC,Used,"8,353 mi.","$68,500",https://www.cars.com/vehicledetail/2515d7ee-cada-45ba-b03d-f09f83691d56/,Land Rover Rockland,22 mi. from 02466
+2015 Cadillac CTS 2.0L Turbo Luxury,Used,"92,514 mi.","$16,997",https://www.cars.com/vehicledetail/0fde764e-7385-4a0d-bfa1-52f536e2613e/,Alliance Motor Group,22 mi. from 02466
+2007 Ford Focus ZX4,Used,"105,117 mi.","$5,995",https://www.cars.com/vehicledetail/5a7281a6-5a73-4ba7-8352-e6b7a2f3b1a6/,Auto Country,23 mi. from 02466
+2012 Honda Civic LX,Used,"130,257 mi.","$9,995",https://www.cars.com/vehicledetail/f8501b04-c5b6-499c-8af6-1972df0a263c/,Auto Country,23 mi. from 02466
+2007 Lexus ES 350 Base,Used,"108,436 mi.","$11,495",https://www.cars.com/vehicledetail/680c24c0-cc2f-4bac-8a8a-e52c1a0b40f3/,Deals on Wheels Auto Sales,23 mi. from 02466
+2020 Lincoln MKZ Reserve,Used,"35,170 mi.","$29,477",https://www.cars.com/vehicledetail/02f2dc5a-abf9-47e4-83e5-9eef350a689d/,Imperial Ford,24 mi. from 02466
+2023 BMW 540 i xDrive,BMW Certified,"18,039 mi.","$58,625",https://www.cars.com/vehicledetail/025d35c7-fd34-4b0f-81d3-a396c64f2aec/,BMW of Shrewsbury,24 mi. from 02466
+2021 Cadillac CT4 Premium Luxury,Used,"27,866 mi.","$27,977",https://www.cars.com/vehicledetail/92310607-b3dd-476f-9cab-abedf949fd24/,Imperial Chevrolet,24 mi. from 02466
+2013 Toyota Camry LE,Used,"120,105 mi.","$10,995",https://www.cars.com/vehicledetail/e1494944-acc6-43b3-9325-f45db47447cc/,South Easton Motor Sales,25 mi. from 02466
+2014 Mitsubishi Lancer GT,Used,"79,000 mi.","$9,995",https://www.cars.com/vehicledetail/ac51f67d-2819-4128-a801-889382a3c911/,Topsfield Motor Co.,26 mi. from 02466
+2023 Toyota Camry Hybrid XLE,Used,"8,158 mi.","$32,900",https://www.cars.com/vehicledetail/f47280f5-221f-4e60-8fb2-c1ffedf8d5e1/,Tasca Buick GMC Woonsocket,28 mi. from 02466
+2019 Ford Mustang GT,Used,"23,205 mi.","$33,000",https://www.cars.com/vehicledetail/b1523410-10d0-44f2-a0fe-a0691fe5bda5/?attribution_type=premier,AutoMax Preowned Framingham,mi. from 02466
+2020 Lexus IS 300 ,Used,"34,445 mi.","$33,996",https://www.cars.com/vehicledetail/3b5ae937-649a-4340-a44b-fea282a589ef/,Lexus of Watertown,5 mi. from 02466
+2020 Lexus IS 300 IS 300 F SPORT,Used,"24,750 mi.","$33,778",https://www.cars.com/vehicledetail/8630a914-2b29-4a56-a63b-83447d28d417/,Lexus of Watertown,5 mi. from 02466
+2020 Kia Cadenza Technology,Kia Certified,"25,233 mi.","$31,490",https://www.cars.com/vehicledetail/6a15a27a-5f84-4195-b99e-e10c8a0dee1c/,LEV KIA of Framingham,8 mi. from 02466
+2021 BMW 540 i xDrive,Used,"36,292 mi.","$44,488",https://www.cars.com/vehicledetail/a18ebe5e-b19d-4b63-8786-4d830b2e6714/,Audi Westwood,9 mi. from 02466
+2023 BMW M3 Competition xDrive,Used,"11,319 mi.","$90,987",https://www.cars.com/vehicledetail/448ec6bc-c1b8-4ea9-9910-048d7c368d81/,BMW of Norwood,12 mi. from 02466
+2019 Mercedes-Benz A-Class A 220 4MATIC,Used,"26,682 mi.","$27,001",https://www.cars.com/vehicledetail/c82ddb3c-9bcf-4625-85e1-d2c0449d1fef/,AutoMax Preowned Marlborough,16 mi. from 02466
+2017 Mercedes-Benz AMG E 43 4MATIC,Used,"33,024 mi.","$43,500",https://www.cars.com/vehicledetail/17b0cdb9-f0bc-4257-ab49-808ef8fe5fe5/,SR AUTO GROUP,16 mi. from 02466
+2020 Audi A6 55 Premium Plus,Used,"43,357 mi.","$34,000",https://www.cars.com/vehicledetail/d7a2287f-2bd3-4e42-81c1-33a52562789d/,AutoMax Preowned Marlborough,16 mi. from 02466
+2016 Mercedes-Benz CLA-Class CLA 250 4MATIC,Used,"44,680 mi.","$18,975",https://www.cars.com/vehicledetail/0ff8d904-02f0-47a2-a953-1fae0e8732ca/,Imotobank,16 mi. from 02466
+2017 Nissan Sentra SR Turbo,Used,"48,114 mi.","$15,432",https://www.cars.com/vehicledetail/dd0fc7c1-b9f1-46c1-b830-5459660be42d/,Colonial Volkswagen,19 mi. from 02466
+2021 Dodge Charger Scat Pack,Used,"8,207 mi.","$48,997",https://www.cars.com/vehicledetail/ccf25ef4-03ae-4fec-9946-81255818c6b0/,Planet Chrysler Jeep Dodge RAM,20 mi. from 02466
+2023 Audi S6 2.9T quattro Premium,Used,"15,540 mi.","$73,700",https://www.cars.com/vehicledetail/be11841c-5eda-4ca8-9b4b-808a73adb1b1/,Audi Peabody,21 mi. from 02466
+2022 Lexus LS 500h ,Used,"4,664 mi.","$81,588",https://www.cars.com/vehicledetail/dce2cb21-eb79-4ef8-b480-7feb6d186f57/,Ira Lexus,21 mi. from 02466
+2017 Subaru WRX Limited,Used,"47,069 mi.","$25,990",https://www.cars.com/vehicledetail/7c4cb994-e4c0-45e6-b9cf-8fb8e07ccd45/,Route 110 Auto Sales,22 mi. from 02466
+2016 Nissan Altima 2.5 SL,Used,"60,830 mi.","$16,262",https://www.cars.com/vehicledetail/b3763f35-9b39-42b5-878f-1f7e079e50d7/,Midway Automotive,23 mi. from 02466
+2022 Volkswagen Arteon 2.0T SEL R-Line,Used,"15,368 mi.","$35,530",https://www.cars.com/vehicledetail/10ed66df-d102-4066-a79d-4e8ae3d0ed6e/,Silko Volkswagen,23 mi. from 02466
+2019 BMW 530e xDrive iPerformance,Used,"49,700 mi.","$29,495",https://www.cars.com/vehicledetail/de41bee8-55a9-4bc5-9fb4-edf17f282f46/,Foley Motorsports,23 mi. from 02466
+2018 Mercedes-Benz AMG E 43 Base 4MATIC,Used,"60,394 mi.","$39,299",https://www.cars.com/vehicledetail/35bf39a8-e775-4cf0-8575-9c17d772020d/,Autocenter Sales & Service,25 mi. from 02466
+2018 Hyundai Sonata Hybrid SE,Used,"103,756 mi.","$13,998",https://www.cars.com/vehicledetail/61ff0704-c9a6-444e-a681-67f70a8daaef/,Metro West Auto Sales,27 mi. from 02466
+2022 Kia Stinger GT-Line,Used,"2,029 mi.","$39,999",https://www.cars.com/vehicledetail/c5d97916-a77b-4bc0-a83c-ea6ff098c050/,Anchor Auto Group - Subaru Nissan,30 mi. from 02466
