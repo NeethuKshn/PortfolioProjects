@@ -8,4 +8,5 @@
    - Clean up wind speed and pressure columns
    - Get the date from duration column
 3. Web scraping - Creating a csv dataset from Car inventory website
+4. Data visualization - Analyse 1996 Global online orders to derive the best markets for supply and demand, USA market and inventory details in a visual representation using Power BI
                                                  
