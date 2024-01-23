@@ -22,19 +22,19 @@ Added an activity in ADF pipeline to execute databricks notebook to execute the 
 Authentication details are accessed through keyvault.
 
 
-##Azure synapse analytics - Loading
+## Azure synapse analytics - Loading
 Created Synapse analytics workspace with ADLS - gold container as primary storage. Added a serverless SQL database. Created a parameterized stored procedure to create a view of files in gold database - address, customer etc. 
 Created a pipeline to get metadata of the files in gold foder, read the file name for each file and execute stored procedure to create view of each file. Executed the pipeline to create views.
 
-##Power BI - Reporting
+## Power BI - Reporting
 In Power BI desktop, connected to get data from azure synapse analytics SQL source with the SQL server endpoints, golddb database using Microsoft credentials. Imported data and tables from golddb in synapse.
 Designed a report to analyse orders and products per country and category.
 
 
-##Security 
+## Security 
 To provice controlled access to resources for multiple users, create a security group in Microsoft Entra ID (Azure Active Directory) -> groups -> New group. 
 In IAM of resource group, add role assignment and assign contributor access to the new security group. Any new users can be added to this group to provide access to the resources in this group.
 
-##End to end testing 
+## End to end testing 
 Created a schedule trigger on ADF pipeline to schedule the pipeline once a day.
 Added 2 new records to the Product table. The pipeline executed. Refresh powerbi report. The changes will be reflected in the report.
