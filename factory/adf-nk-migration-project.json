@@ -1,0 +1,9 @@
+{
+	"name": "adf-nk-migration-project",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7a9f2c99-d7ad-4e54-ba50-dd9e314a7a42",
+		"tenantId": "911cdf09-7ff3-405c-b212-d5dc2a877704"
+	}
+}
