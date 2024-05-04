@@ -1,0 +1,13 @@
+{
+	"name": "AzureDataLakeStorage_Migration",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Linked service to container migration in sankmigrationproject storage account",
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://sankmigrationproject.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDQ3NkE1MTIyLTg2NzUtNEQ1Qi1BMUE4LTQ5RTZEQTE3QTdDOF8zNDNmNTkxMi1iZDRiLTQxOTQtYjcwMi0yZjVjMDM1MzNkNjYiDQp9"
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"name": "Lenovo-nk-self-hosted-ir",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "To connect to Microsoft SQL server in Lenovo laptop"
+	}
+}

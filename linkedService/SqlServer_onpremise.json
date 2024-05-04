@@ -1,0 +1,24 @@
+{
+	"name": "SqlServer_onpremise",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Linked service to MS SQL server on premise",
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "Integrated Security=False;Data Source=localhost;Initial Catalog=AdventureWorksLT2022;User ID=nk",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "PwdMSSQLServer"
+			}
+		},
+		"connectVia": {
+			"referenceName": "Lenovo-nk-self-hosted-ir",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
