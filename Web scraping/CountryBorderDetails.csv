@@ -1,0 +1,661 @@
+index,country_cca3,border_country,border_length
+1,Afghanistan,China,91 km
+2,Afghanistan,Iran,921 km
+3,Afghanistan,Pakistan,"2,670 km"
+4,Afghanistan,Tajikistan,"1,357 km"
+5,Afghanistan,Turkmenistan,804 km
+6,Afghanistan,Uzbekistan,144 km
+7,Akrotiri,Cyprus,48 km
+8,Albania,Greece,212 km
+9,Albania,Kosovo,112 km
+10,Albania,North Macedonia,181 km
+11,Albania,Montenegro,186 km
+12,Algeria,Libya,989 km
+13,Algeria,Mali,"1,359 km"
+14,Algeria,Mauritania,460 km
+15,Algeria,Morocco,"1,941 km"
+16,Algeria,Niger,951 km
+17,Algeria,Tunisia,"1,034 km"
+18,Andorra,France,55 km
+19,Andorra,Spain,63 km
+20,Angola,"Democratic Republic of the Congo 2,646 km (of which 225 km is the boundary of discontiguous",Cabinda Province)
+21,Angola,Republic of the Congo,231 km
+22,Angola,Namibia,"1,427 km"
+23,Angola,Zambia,"1,065 km"
+24,Argentina,Bolivia,942 km
+25,Argentina,Brazil,"1,263 km"
+26,Argentina,Chile,"6,691 km"
+27,Argentina,Paraguay,"2,531 km"
+28,Argentina,Uruguay,541 km
+29,Armenia,Azerbaijan,996 km
+30,Armenia,Georgia,219 km
+31,Armenia,Iran,44 km
+32,Armenia,Turkey,311 km
+33,Austria,Czech Republic,402 km
+34,Austria,Germany,801 km
+35,Austria,Hungary,321 km
+36,Austria,Italy,404 km
+37,Austria,Liechtenstein,34 km
+38,Austria,Slovakia,105 km
+39,Austria,Slovenia,299 km
+40,Austria,Switzerland,158 km
+41,Azerbaijan,Armenia,996 km
+42,Azerbaijan,Georgia,428 km
+43,Azerbaijan,Iran,689 km
+44,Azerbaijan,Russia,338 km
+45,Azerbaijan,Turkey,17 km
+46,Bangladesh,Burma,271 km
+47,Bangladesh,India,"4,142 km"
+48,Belarus,Latvia,161 km
+49,Belarus,Lithuania,640 km
+50,Belarus,Poland,375 km
+51,Belarus,Russia,"1,312 km"
+52,Belarus,Ukraine,"1,111 km"
+53,Belgium,France,556 km
+54,Belgium,Germany,133 km
+55,Belgium,Luxembourg,130 km
+56,Belgium,Netherlands,478 km
+57,Belize,Guatemala,266 km
+58,Belize,Mexico,276 km
+59,Benin,Burkina Faso,386 km
+60,Benin,Niger,277 km
+61,Benin,Nigeria,809 km
+62,Benin,Togo,651 km
+63,Bhutan,China,477 km
+64,Bhutan,India,659 km
+65,Bolivia,Argentina,942 km
+66,Bolivia,Brazil,"3,403 km"
+67,Bolivia,Chile,942 km
+68,Bolivia,Paraguay,753 km
+69,Bolivia,Peru,"1,212 km"
+70,Bosnia and Herzegovina,Croatia,956 km
+71,Bosnia and Herzegovina,Montenegro,242 km
+72,Bosnia and Herzegovina,Serbia,345 km
+73,Botswana,Namibia,"1,544 km"
+74,Botswana,South Africa,"1,969 km"
+75,Botswana,Zambia,0.15 km
+76,Botswana,Zimbabwe,834 km
+77,Brazil,Argentina,"1,263 km"
+78,Brazil,Bolivia,"3,403 km"
+79,Brazil,Colombia,"1,790 km"
+80,Brazil,French Guiana,649 km
+81,Brazil,Guyana,"1,308 km"
+82,Brazil,Paraguay,"1,371 km"
+83,Brazil,Peru,"2,659 km"
+84,Brazil,Suriname,515 km
+85,Brazil,Uruguay,"1,050 km"
+86,Brazil,Venezuela,"2,137 km"
+87,Brunei,Malaysia,266 km
+88,Bulgaria,Greece,472 km
+89,Bulgaria,Macedonia,162 km
+90,Bulgaria,Romania,605 km
+91,Bulgaria,Serbia,344 km
+92,Bulgaria,Turkey,223 km
+93,Burkina Faso,Benin,386 km
+94,Burkina Faso,Cote d'Ivoire,545 km
+95,Burkina Faso,Ghana,602 km
+96,Burkina Faso,Mali,1325 km
+97,Burkina Faso,Niger,622 km
+98,Burkina Faso,Togo,131 km
+99,Burma,Bangladesh,271 km
+100,Burma,China,"2,129 km"
+101,Burma,India,"1,468 km"
+102,Burma,Laos,238 km
+103,Burma,Thailand,"2,416 km"
+104,Burundi,Democratic Republic of the Congo,236 km
+105,Burundi,Rwanda,315 km
+106,Burundi,Tanzania,589 km
+107,Cambodia,Laos,555 km
+108,Cambodia,Thailand,817 km
+109,Cambodia,Vietnam,1158 km
+110,Cameroon,Central African Republic,901 km
+111,Cameroon,Chad,"1,116 km"
+112,Cameroon,Republic of the Congo,494 km
+113,Cameroon,Equatorial Guinea,183 km
+114,Cameroon,Gabon,349 km
+115,Cameroon,Nigeria,1975 km
+116,Canada,"US 8,891 km (includes 2,475 km",with Alaska)
+117,Canada,Denmark (Greenland),1.3 km
+118,Central African Republic,Cameroon,901 km
+119,Central African Republic,Chad,1556 km
+120,Central African Republic,"Democratic Republic of the Congo 1,747 km, Republic of the Congo",487 km
+121,Central African Republic,South Sudan,1055 km
+122,Central African Republic,Sudan,174 km
+123,Chad,Cameroon,"1,116 km"
+124,Chad,Central African Republic,"1,556 km"
+125,Chad,Libya,"1,050 km"
+126,Chad,Niger,"1,196 km"
+127,Chad,Nigeria,85 km
+128,Chad,Sudan,"1,403 km"
+129,Chile,Argentina,"6,691 km"
+130,Chile,Bolivia,942 km
+131,Chile,Peru,168 km
+132,China,Afghanistan,91 km
+133,China,Bhutan,477 km
+134,China,Burma,"2,129 km"
+135,China,India,"2,659 km"
+136,China,Kazakhstan,"1,765 km"
+137,China,North Korea,"1,352 km"
+138,China,Kyrgyzstan,"1,063 km"
+139,China,Laos,475 km
+140,China,Mongolia,"4,630 km"
+141,China,Nepal,"1,389 km"
+142,China,Pakistan,438 km
+143,China,"Russia (northeast) 4,133 km and Russia (northwest)",46 km
+144,China,Tajikistan,477 km
+145,China,Vietnam,"1,297 km"
+146,Colombia,Brazil,"1,790 km"
+147,Colombia,Ecuador,708 km
+148,Colombia,Panama,339 km
+149,Colombia,Peru,"1,494 km"
+150,Colombia,Venezuela,"2,341 km"
+151,"Congo, Democratic Republic of the","Angola 2,646 km (of which 225 km is the boundary of Angola's discontiguous",Cabinda Province)
+152,"Congo, Democratic Republic of the",Burundi,236 km
+153,"Congo, Democratic Republic of the",Central African Republic,"1,747 km"
+154,"Congo, Democratic Republic of the",Republic of the Congo,"1,775 km"
+155,"Congo, Democratic Republic of the",Rwanda,221 km
+156,"Congo, Democratic Republic of the",South Sudan,714 km
+157,"Congo, Democratic Republic of the",Tanzania,479 km
+158,"Congo, Democratic Republic of the",Uganda,877 km
+159,"Congo, Democratic Republic of the",Zambia,"2,332 km"
+160,"Congo, Republic of the",Angola,231 km
+161,"Congo, Republic of the",Cameroon,494 km
+162,"Congo, Republic of the",Central African Republic,487 km
+163,"Congo, Republic of the",Democratic Republic of the Congo,"1,775 km"
+164,"Congo, Republic of the",Gabon,"2,567 km"
+165,Costa Rica,Nicaragua,313 km
+166,Costa Rica,Panama,348 km
+167,Cote d'Ivoire,Burkina Faso,545 km
+168,Cote d'Ivoire,Ghana,720 km
+169,Cote d'Ivoire,Guinea,816 km
+170,Cote d'Ivoire,Liberia,778 km
+171,Cote d'Ivoire,Mali,599 km
+172,Croatia,Bosnia and Herzegovina,956 km
+173,Croatia,Hungary,348 km
+174,Croatia,Montenegro,19 km
+175,Croatia,Serbia,314 km
+176,Croatia,Slovenia,600 km
+177,Cuba,US Naval Base at Guantanamo Bay,28.5 km
+178,Czechia,Austria,402 km
+179,Czechia,Germany,704 km
+180,Czechia,Poland,699 km
+181,Czechia,Slovakia,241 km
+182,Denmark,Germany,140 km
+183,Denmark,Canada,1.3 km
+184,Dhekelia,Cyprus,108 km
+185,Djibouti,Eritrea,125 km
+186,Djibouti,Ethiopia,342 km
+187,Djibouti,Somalia,61 km
+188,Dominican Republic,Haiti,376 km
+189,Ecuador,Colombia,708 km
+190,Ecuador,Peru,1529 km
+191,Egypt,Gaza Strip,13 km
+192,Egypt,Israel,208 km
+193,Egypt,Libya,"1,115 km"
+194,Egypt,Sudan,"1,276 km"
+195,El Salvador,Guatemala,199 km
+196,El Salvador,Honduras,391 km
+197,Equatorial Guinea,Cameroon,183 km
+198,Equatorial Guinea,Gabon,345 km
+199,Eritrea,Djibouti,125 km
+200,Eritrea,Ethiopia,"1,033 km"
+201,Eritrea,Sudan,682 km
+202,Estonia,Latvia,333 km
+203,Estonia,Russia,324 km
+204,Eswatini,Mozambique,108 km
+205,Eswatini,South Africa,438 km
+206,Ethiopia,Djibouti,342 km
+207,Ethiopia,Eritrea,"1,033 km"
+208,Ethiopia,Kenya,867 km
+209,Ethiopia,Somalia,"1,640 km"
+210,Ethiopia,South Sudan,"1,299 km"
+211,Ethiopia,Sudan,744 km
+212,European Union,Albania,212 km
+213,European Union,Andorra,118 km
+214,European Union,Belarus,"1,176 km"
+215,European Union,Bosnia and Herzegovina,956 km
+216,European Union,Holy See,3 km
+217,European Union,Liechtenstein,34 km
+218,European Union,North Macedonia,396 km
+219,European Union,Moldova,683 km
+220,European Union,Monaco,6 km
+221,European Union,Montenegro,19 km
+222,European Union,Norway,"2,375 km"
+223,European Union,Russia,"2,435 km"
+224,European Union,San Marino,37 km
+225,European Union,Serbia,"1,353 km"
+226,European Union,Switzerland,"1,729 km"
+227,European Union,Turkey,415 km
+228,European Union,United Kingdom,499 km
+229,European Union,Ukraine,"1,324 km"
+230,European Union,"note - the Brexit Withdrawal Agreement (2020) commits the United Kingdom (UK) to maintain an open border in Ireland, so the border between Northern Ireland (UK) and the Republic of Ireland",is only
+231,Finland,Norway,709 km
+232,Finland,Sweden,545 km
+233,Finland,Russia,"1,309 km"
+234,France,Andorra,55 km
+235,France,Belgium,556 km
+236,France,Germany,418 km
+237,France,Italy,476 km
+238,France,Luxembourg,69 km
+239,France,Monaco,6 km
+240,France,Spain,646 km
+241,France,Switzerland,525 km
+242,Gabon,Cameroon,349 km
+243,Gabon,Republic of the Congo,"2,567 km"
+244,Gabon,Equatorial Guinea,345 km
+245,"Gambia, The",Senegal,749 km
+246,Gaza Strip,Egypt,13 km
+247,Gaza Strip,Israel,59 km
+248,Georgia,Armenia,219 km
+249,Georgia,Azerbaijan,428 km
+250,Georgia,Russia,894 km
+251,Georgia,Turkey,273 km
+252,Germany,Austria,801 km
+253,Germany,Belgium,133 km
+254,Germany,Czechia,704 km
+255,Germany,Denmark,140 km
+256,Germany,France,418 km
+257,Germany,Luxembourg,128 km
+258,Germany,Netherlands,575 km
+259,Germany,Poland,447 km
+260,Germany,Switzerland,348 km
+261,Ghana,Burkina Faso,602 km
+262,Ghana,Cote d'Ivoire,720 km
+263,Ghana,Togo,1098 km
+264,Gibraltar,Spain,1.2 km
+265,Greece,Albania,212 km
+266,Greece,Bulgaria,472 km
+267,Greece,North Macedonia,234 km
+268,Greece,Turkey,192 km
+269,Guatemala,Belize,266 km
+270,Guatemala,El Salvador,199 km
+271,Guatemala,Honduras,244 km
+272,Guatemala,Mexico,958 km
+273,Guinea,Cote d'Ivoire,816 km
+274,Guinea,Guinea-Bissau,421 km
+275,Guinea,Liberia,590 km
+276,Guinea,Mali,1062 km
+277,Guinea,Senegal,363 km
+278,Guinea,Sierra Leone,794 km
+279,Guinea-Bissau,Guinea,421 km
+280,Guinea-Bissau,Senegal,341 km
+281,Guyana,Brazil,"1,308 km"
+282,Guyana,Suriname,836 km
+283,Guyana,Venezuela,789 km
+284,Haiti,Dominican Republic,376 km
+285,Holy See (Vatican City),Italy,3.4 km
+286,Honduras,Guatemala,244 km
+287,Honduras,El Salvador,391 km
+288,Honduras,Nicaragua,940 km
+289,Hungary,Austria,321 km
+290,Hungary,Croatia,348 km
+291,Hungary,Romania,424 km
+292,Hungary,Serbia,164 km
+293,Hungary,Slovakia,627 km
+294,Hungary,Slovenia,94 km
+295,Hungary,Ukraine,128 km
+296,India,Bangladesh,"4,142 km"
+297,India,Bhutan,659 km
+298,India,Burma,"1,468 km"
+299,India,China,"2,659 km"
+300,India,Nepal,"1,770 km"
+301,India,Pakistan,"3,190 km"
+302,Indonesia,Malaysia,"1,881 km"
+303,Indonesia,Papua New Guinea,824 km
+304,Indonesia,Timor-Leste,253 km
+305,Iran,Afghanistan,921 km
+306,Iran,Armenia,44 km
+307,Iran,Azerbaijan,689 km
+308,Iran,Iraq,"1,599 km"
+309,Iran,Pakistan,959 km
+310,Iran,Turkey,534 km
+311,Iran,Turkmenistan,"1,148 km"
+312,Iraq,Iran,"1,599 km"
+313,Iraq,Jordan,179 km
+314,Iraq,Kuwait,254 km
+315,Iraq,Saudi Arabia,811 km
+316,Iraq,Syria,599 km
+317,Iraq,Turkey,367 km
+318,Ireland,UK,490 km
+319,Israel,Egypt,208 km
+320,Israel,Gaza Strip,59 km
+321,Israel,Jordan 327 km (20 km are within the,Dead Sea)
+322,Israel,Lebanon,81 km
+323,Israel,Syria,83 km
+324,Israel,West Bank,330 km
+325,Italy,Austria,404 km
+326,Italy,France,476 km
+327,Italy,Holy See (Vatican City),3.4 km
+328,Italy,San Marino,37 km
+329,Italy,Slovenia,218 km
+330,Italy,Switzerland,698 km
+331,Jordan,Iraq,179 km
+332,Jordan,Israel,307 km
+333,Jordan,Saudi Arabia,731 km
+334,Jordan,Syria,379 km
+335,Jordan,West Bank,148 km
+336,Kazakhstan,China,"1,765 km"
+337,Kazakhstan,Kyrgyzstan,"1,212 km"
+338,Kazakhstan,Russia,"7,644 km"
+339,Kazakhstan,Turkmenistan,413 km
+340,Kazakhstan,Uzbekistan,"2,330 km"
+341,Kenya,Ethiopia,867 km
+342,Kenya,Somalia,684 km
+343,Kenya,South Sudan,317 km
+344,Kenya,Tanzania,775 km
+345,Kenya,Uganda,814 km
+346,"Korea, North",China,"1,352 km"
+347,"Korea, North",South Korea,237 km
+348,"Korea, North",Russia,18 km
+349,"Korea, South",North Korea,237 km
+350,Kosovo,Albania,112 km
+351,Kosovo,North Macedonia,160 km
+352,Kosovo,Montenegro,76 km
+353,Kosovo,Serbia,366 km
+354,Kuwait,Iraq,254 km
+355,Kuwait,Saudi Arabia,221 km
+356,Kyrgyzstan,China,"1,063 km"
+357,Kyrgyzstan,Kazakhstan,"1,212 km"
+358,Kyrgyzstan,Tajikistan,984 km
+359,Kyrgyzstan,Uzbekistan,"1,314 km"
+360,Laos,Burma,238 km
+361,Laos,Cambodia,555 km
+362,Laos,China,475 km
+363,Laos,Thailand,"1,845 km"
+364,Laos,Vietnam,"2,161 km"
+365,Latvia,Belarus,161 km
+366,Latvia,Estonia,333 km
+367,Latvia,Lithuania,544 km
+368,Latvia,Russia,332 km
+369,Lebanon,Israel,81 km
+370,Lebanon,Syria,403 km
+371,Lesotho,South Africa,"1,106 km"
+372,Liberia,Guinea,590 km
+373,Liberia,Cote d'Ivoire,778 km
+374,Liberia,Sierra Leone,299 km
+375,Libya,Algeria,989 km
+376,Libya,Chad,"1,050 km"
+377,Libya,Egypt,"1,115 km"
+378,Libya,Niger,342 km
+379,Libya,Sudan,382 km
+380,Libya,Tunisia,461 km
+381,Liechtenstein,Austria,34 km
+382,Liechtenstein,Switzerland,41 km
+383,Lithuania,Belarus,640 km
+384,Lithuania,Latvia,544 km
+385,Lithuania,Poland,100 km
+386,Lithuania,Russia (Kaliningrad),261 km
+387,Luxembourg,Belgium,130 km
+388,Luxembourg,France,69 km
+389,Luxembourg,Germany,128 km
+390,Malawi,Mozambique,"1,498 km"
+391,Malawi,Tanzania,512 km
+392,Malawi,Zambia,847 km
+393,Malaysia,Brunei,266 km
+394,Malaysia,Indonesia,"1,881 km"
+395,Malaysia,Thailand,595 km
+396,Mali,Algeria,"1,359 km"
+397,Mali,Burkina Faso,"1,325 km"
+398,Mali,Cote d'Ivoire,599 km
+399,Mali,Guinea,"1,062 km"
+400,Mali,Mauritania,"2,236 km"
+401,Mali,"Niger 838 km, Senegal",489 km
+402,Mauritania,Algeria,460 km
+403,Mauritania,Mali,"2,236 km"
+404,Mauritania,Morocco,"1,564 km"
+405,Mauritania,Senegal,742 km
+406,Mexico,Belize,276 km
+407,Mexico,Guatemala,958 km
+408,Mexico,US,"3,155 km"
+409,Moldova,Romania,683 km
+410,Moldova,Ukraine,1202 km
+411,Monaco,France,6 km
+412,Mongolia,China,"4,630 km"
+413,Mongolia,Russia,"3,452 km"
+414,Montenegro,Albania,186 km
+415,Montenegro,Bosnia and Herzegovina,242 km
+416,Montenegro,Croatia,19 km
+417,Montenegro,Kosovo,76 km
+418,Montenegro,Serbia,157 km
+419,Morocco,Algeria,"1,941 km"
+420,Morocco,Mauritania,"1,564 km"
+421,Morocco,Spain (Ceuta) 8 km and Spain (Melilla),10.5 km
+422,Mozambique,Malawi,1498 km
+423,Mozambique,South Africa,496 km
+424,Mozambique,Eswatini,108 km
+425,Mozambique,Tanzania,840 km
+426,Mozambique,Zambia,439 km
+427,Mozambique,Zimbabwe,"1,402 km"
+428,Namibia,Angola,"1,427 km"
+429,Namibia,Botswana,"1,544 km"
+430,Namibia,South Africa,"1,005 km"
+431,Namibia,Zambia,244 km
+432,Nepal,China,"1,389 km"
+433,Nepal,India,"1,770 km"
+434,Netherlands,Belgium,478 km
+435,Netherlands,Germany,575 km
+436,Nicaragua,Costa Rica,313 km
+437,Nicaragua,Honduras,940 km
+438,Niger,Algeria,951 km
+439,Niger,Benin,277 km
+440,Niger,Burkina Faso,622 km
+441,Niger,Chad,"1,196 km"
+442,Niger,Libya,342 km
+443,Niger,Mali,838 km
+444,Niger,Nigeria,"1,608 km"
+445,Nigeria,Benin,809 km
+446,Nigeria,Cameroon,"1,975 km"
+447,Nigeria,Chad,85 km
+448,Nigeria,Niger,"1,608 km"
+449,North Macedonia,Albania,181 km
+450,North Macedonia,Bulgaria,162 km
+451,North Macedonia,Greece,234 km
+452,North Macedonia,Kosovo,160 km
+453,North Macedonia,Serbia,101 km
+454,Norway,Finland,709 km
+455,Norway,Sweden,"1,666 km"
+456,Norway,Russia,191 km
+457,Oman,Saudi Arabia,658 km
+458,Oman,UAE,609 km
+459,Oman,Yemen,294 km
+460,Pakistan,Afghanistan,"2,670 km"
+461,Pakistan,China,438 km
+462,Pakistan,India,"3,190 km"
+463,Pakistan,Iran,959 km
+464,Panama,Colombia,339 km
+465,Panama,Costa Rica,348 km
+466,Papua New Guinea,Indonesia,824 km
+467,Paraguay,Argentina,"2,531 km"
+468,Paraguay,Bolivia,753 km
+469,Paraguay,Brazil,"1,371 km"
+470,Peru,Bolivia,"1,212 km"
+471,Peru,Brazil,"2,659 km"
+472,Peru,Chile,168 km
+473,Peru,Colombia,"1,494 km"
+474,Peru,Ecuador,"1,529 km"
+475,Poland,Belarus,375 km
+476,Poland,Czechia,699 km
+477,Poland,Germany,467 km
+478,Poland,"Lithuania 100 km, Russia (Kaliningrad Oblast)",209 km
+479,Poland,Slovakia,517 km
+480,Poland,Ukraine,498 km
+481,Portugal,Spain,"1,224 km"
+482,Qatar,Saudi Arabia,87 km
+483,Romania,Bulgaria,605 km
+484,Romania,Hungary,424 km
+485,Romania,Moldova,683 km
+486,Romania,Serbia,531 km
+487,Romania,Ukraine,601 km
+488,Russia,Azerbaijan,338 km
+489,Russia,Belarus,"1,312 km"
+490,Russia,"China (southeast) 4,133 km and China (south)",46 km
+491,Russia,Estonia,324 km
+492,Russia,Finland,"1,309 km"
+493,Russia,Georgia,894 km
+494,Russia,Kazakhstan,"7,644 km"
+495,Russia,North Korea,18 km
+496,Russia,Latvia,332 km
+497,Russia,Lithuania (Kaliningrad Oblast),261 km
+498,Russia,Mongolia,"3,452 km"
+499,Russia,Norway,191 km
+500,Russia,Poland (Kaliningrad Oblast),209 km
+501,Russia,Ukraine,"1,944 km"
+502,Rwanda,Burundi,315 km
+503,Rwanda,Democratic Republic of the Congo,221 km
+504,Rwanda,Tanzania,222 km
+505,Rwanda,Uganda,172 km
+506,Saint Martin,Sint Maarten,16 km
+507,San Marino,Italy,37 km
+508,Saudi Arabia,Iraq,811 km
+509,Saudi Arabia,Jordan,731 km
+510,Saudi Arabia,Kuwait,221 km
+511,Saudi Arabia,Oman,658 km
+512,Saudi Arabia,Qatar,87 km
+513,Saudi Arabia,UAE,457 km
+514,Saudi Arabia,Yemen,"1,307 km"
+515,Senegal,The Gambia,749 km
+516,Senegal,Guinea,363 km
+517,Senegal,Guinea-Bissau,341 km
+518,Senegal,Mali,489 km
+519,Senegal,Mauritania,742 km
+520,Serbia,Bosnia and Herzegovina,345 km
+521,Serbia,Bulgaria,344 km
+522,Serbia,Croatia,314 km
+523,Serbia,Hungary,164 km
+524,Serbia,Kosovo,366 km
+525,Serbia,North Macedonia,101 km
+526,Serbia,Montenegro,157 km
+527,Serbia,Romania,531 km
+528,Sierra Leone,Guinea,794 km
+529,Sierra Leone,Liberia,299 km
+530,Sint Maarten,Saint Martin (France),16 km
+531,Slovakia,Austria,105 km
+532,Slovakia,Czechia,241 km
+533,Slovakia,Hungary,627 km
+534,Slovakia,Poland,517 km
+535,Slovakia,Ukraine,97 km
+536,Slovenia,Austria,299 km
+537,Slovenia,Croatia,600 km
+538,Slovenia,Hungary,94 km
+539,Slovenia,Italy,218 km
+540,Somalia,Djibouti,61 km
+541,Somalia,Ethiopia,"1,640 km"
+542,Somalia,Kenya,684 km
+543,South Africa,Botswana,"1,969 km"
+544,South Africa,Lesotho,"1,106 km"
+545,South Africa,Mozambique,496 km
+546,South Africa,Namibia,"1,005 km"
+547,South Africa,Eswatini,438 km
+548,South Africa,Zimbabwe,230 km
+549,South Sudan,Central African Republic,"1,055 km"
+550,South Sudan,Democratic Republic of the Congo,714 km
+551,South Sudan,Ethiopia,"1,299 km"
+552,South Sudan,Kenya,317 km
+553,South Sudan,Sudan,"2,158 km"
+554,South Sudan,Uganda,475 km
+555,Spain,Andorra,63 km
+556,Spain,France,646 km
+557,Spain,Gibraltar,1.2 km
+558,Spain,Portugal,"1,224 km"
+559,Spain,Morocco (Ceuta) 8 km and Morocco (Melilla),10.5 km
+560,Sudan,Central African Republic,174 km
+561,Sudan,Chad,"1,403 km"
+562,Sudan,Egypt,"1,276 km"
+563,Sudan,Eritrea,682 km
+564,Sudan,Ethiopia,744 km
+565,Sudan,Libya,382 km
+566,Sudan,South Sudan,"2,158 km"
+567,Suriname,Brazil,515 km
+568,Suriname,French Guiana,556 km
+569,Suriname,Guyana,836 km
+570,Sweden,Finland,545 km
+571,Sweden,Norway,"1,666 km"
+572,Switzerland,Austria,158 km
+573,Switzerland,France,525 km
+574,Switzerland,Italy,698 km
+575,Switzerland,Liechtenstein,41 km
+576,Switzerland,Germany,348 km
+577,Syria,Iraq,599 km
+578,Syria,Israel,83 km
+579,Syria,Jordan,379 km
+580,Syria,Lebanon,403 km
+581,Syria,Turkey,899 km
+582,Tajikistan,Afghanistan,"1,357 km"
+583,Tajikistan,China,477 km
+584,Tajikistan,Kyrgyzstan,984 km
+585,Tajikistan,Uzbekistan,"1,312 km"
+586,Tanzania,Burundi,589 km
+587,Tanzania,Democratic Republic of the Congo,479 km
+588,Tanzania,Kenya,775 km
+589,Tanzania,Malawi,512 km
+590,Tanzania,Mozambique,840 km
+591,Tanzania,Rwanda,222 km
+592,Tanzania,Uganda,391 km
+593,Tanzania,Zambia,353 km
+594,Thailand,Burma,"2,416 km"
+595,Thailand,Cambodia,817 km
+596,Thailand,Laos,"1,845 km"
+597,Thailand,Malaysia,595 km
+598,Timor-Leste,Indonesia,253 km
+599,Togo,Benin,651 km
+600,Togo,Burkina Faso,131 km
+601,Togo,Ghana,"1,098 km"
+602,Tunisia,Algeria,"1,034 km"
+603,Tunisia,Libya,461 km
+604,Turkey (Turkiye),Armenia,311 km
+605,Turkey (Turkiye),Azerbaijan,17 km
+606,Turkey (Turkiye),Bulgaria,223 km
+607,Turkey (Turkiye),Georgia,273 km
+608,Turkey (Turkiye),Greece,192 km
+609,Turkey (Turkiye),Iran,534 km
+610,Turkey (Turkiye),Iraq,367 km
+611,Turkey (Turkiye),Syria,899 km
+612,Turkmenistan,Afghanistan,804 km
+613,Turkmenistan,Iran,"1,148 km"
+614,Turkmenistan,Kazakhstan,413 km
+615,Turkmenistan,Uzbekistan,"1,793 km"
+616,Uganda,Democratic Republic of the Congo,877 km
+617,Uganda,Kenya,814 km
+618,Uganda,Rwanda,172 km
+619,Uganda,South Sudan,475 km
+620,Uganda,Tanzania,391 km
+621,Ukraine,Belarus,"1,111 km"
+622,Ukraine,Hungary,128 km
+623,Ukraine,Moldova,"1,202 km"
+624,Ukraine,Poland,498 km
+625,Ukraine,Romania,601 km
+626,Ukraine,"Russia 1,944 km, Slovakia",97 km
+627,United Arab Emirates,Oman,609 km
+628,United Arab Emirates,Saudi Arabia,457 km
+629,United Kingdom,Ireland,499 km
+630,United States,"Canada 8,891 km (including 2,475 km",with Alaska)
+631,United States,Mexico,"3,111 km"
+632,Uruguay,Argentina,541 km
+633,Uruguay,Brazil,"1,050 km"
+634,Uzbekistan,Afghanistan,144 km
+635,Uzbekistan,Kazakhstan,"2,330 km"
+636,Uzbekistan,Kyrgyzstan,"1,314 km"
+637,Uzbekistan,Tajikistan,"1,312 km"
+638,Uzbekistan,Turkmenistan,"1,793 km"
+639,Venezuela,Brazil,"2,137 km"
+640,Venezuela,Colombia,"2,341 km"
+641,Venezuela,Guyana,789 km
+642,Vietnam,Cambodia,"1,158 km"
+643,Vietnam,China,"1,297 km"
+644,Vietnam,Laos,"2,161 km"
+645,West Bank,Israel,330 km
+646,West Bank,Jordan,148 km
+647,Yemen,Oman,294 km
+648,Yemen,Saudi Arabia,"1,307 km"
+649,Zambia,Angola,"1,065 km"
+650,Zambia,Botswana,0.15 km
+651,Zambia,Democratic Republic of the Congo,"2,332 km"
+652,Zambia,Malawi,847 km
+653,Zambia,Mozambique,439 km
+654,Zambia,Namibia,244 km
+655,Zambia,Tanzania,353 km
+656,Zambia,Zimbabwe,763 km
+657,Zimbabwe,Botswana,834 km
+658,Zimbabwe,Mozambique,"1,402 km"
+659,Zimbabwe,South Africa,230 km
+660,Zimbabwe,Zambia,763 km

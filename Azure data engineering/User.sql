@@ -17,4 +17,8 @@ JOIN sys.schemas s
 on t.schema_id = s.schema_id
 where s.name = 'SalesLT'
 
+-- Grant CREATE TABLE, INSERT, and UPDATE permissions to a user or role
+GRANT CREATE TABLE TO nk;
+GRANT INSERT, UPDATE ON SCHEMA::SalesLT TO nk;
+
 
